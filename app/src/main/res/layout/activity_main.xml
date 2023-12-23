@@ -24,22 +24,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/user" />
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView3"-->
-<!--        android:layout_width="171dp"-->
-<!--        android:layout_height="169dp"-->
-<!--        android:layout_marginStart="141dp"-->
-<!--        android:layout_marginTop="100dp"-->
-<!--        android:layout_marginEnd="142dp"-->
-<!--        android:layout_marginBottom="50dp"-->
-<!--        android:contentDescription="UserImage"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/input_username"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.488"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        tools:srcCompat="@drawable/user" />-->
-
     <EditText
         android:id="@+id/input_username"
         android:layout_width="0dp"
@@ -47,18 +31,19 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
+        android:autofillHints=""
         android:background="@color/white"
         android:ems="10"
         android:hint="ชื่อผู้ใช้"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:paddingStart="15dp"
+        android:textColor="#000000"
         android:textColorHint="#78909C"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <EditText
         android:id="@+id/input_password"
@@ -73,6 +58,7 @@
         android:inputType="text"
         android:minHeight="48dp"
         android:paddingStart="15dp"
+        android:textColor="#000000"
         android:textColorHint="#78909C"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,6 +79,7 @@
         android:showText="false"
         android:text="เข้าสู่ระบบอัตโนมัติ"
         android:textAlignment="textStart"
+        android:textColor="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
